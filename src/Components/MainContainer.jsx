@@ -10,7 +10,6 @@ const MainContainer = () => {
 
   const movie = movies[0];
   const { original_title, overview, id } = movie;
-  console.log(movie);
 
   return (
     <div>

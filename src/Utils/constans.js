@@ -5,9 +5,12 @@ export const LOGIN_BACKROUND =
   "https://assets.nflxext.com/ffe/siteui/vlv3/a927b1ee-784d-494a-aa80-cf7a062d2523/web/IN-en-20250714-TRIFECTA-perspective_5acb7337-c372-45ec-ae12-ddb110e6ad78_medium.jpg";
 
 export const API_OPTIONS = {
-  method: 'GET',
+  method: "GET",
   headers: {
-    accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNzg4MGEyZDdjMThkY2U5OWZhZTNhYjUyM2FhYWMxYiIsIm5iZiI6MTc1Mzc2NjMyMS4zOTgwMDAyLCJzdWIiOiI2ODg4NTliMWI5NGU2NjdmOGI1MmI5ZWMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.qEx9A6RqZfqFaMZnw7p8691-69xakisLLhAp-PaXiTo'
-  }
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNzg4MGEyZDdjMThkY2U5OWZhZTNhYjUyM2FhYWMxYiIsIm5iZiI6MTc1Mzc2NjMyMS4zOTgwMDAyLCJzdWIiOiI2ODg4NTliMWI5NGU2NjdmOGI1MmI5ZWMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.qEx9A6RqZfqFaMZnw7p8691-69xakisLLhAp-PaXiTo",
+  },
 };
+
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500/";

@@ -18,6 +18,11 @@
 - get data from TMDB now playing movies list api
 - custom hook for now playing
 - update store with movie list
+- Build Secondary Container
+- Build Movie List
+- Build Movie Card
+- IMDB Imaged CDN
+- Made the browser UI Better using Tailwind CSS
 
 - Feature
   - Login/Signup

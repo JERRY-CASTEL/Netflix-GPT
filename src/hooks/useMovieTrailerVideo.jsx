@@ -1,10 +1,14 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { API_OPTIONS } from "../Utils/constans";
 import { addMovieTrailerVideo } from "../Utils/Slices/movieSlices";
 import { useEffect } from "react";
 
 const useMovieTrailerVideo = (movieId) => {
   const dispatch = useDispatch();
+  // This process is called memorization this will help to stop unwanted api calls
+  const movieTrailerVideos = useSelector(
+    (store) => store.movie.movieTrailerVideo
+  );
 
   const getMovieVideo = async () => {
     const url =
@@ -24,7 +28,7 @@ const useMovieTrailerVideo = (movieId) => {
   };
 
   useEffect(() => {
-    getMovieVideo();
+    !movieTrailerVideos && getMovieVideo();
   }, []);
 };
 

@@ -23,6 +23,7 @@
 - Build Movie Card
 - IMDB Imaged CDN
 - Made the browser UI Better using Tailwind CSS
+- GPT Search feature
 
 - Feature
   - Login/Signup
